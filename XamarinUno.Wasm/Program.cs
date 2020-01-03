@@ -10,6 +10,7 @@ namespace XamarinUno.Wasm
 		{
             ConfigureFilters(Uno.Extensions.LogExtensionPoint.AmbientLoggerFactory);
 
+			SkiaSharp.SKSize sKSize = new SkiaSharp.SKSize();
             Windows.UI.Xaml.Application.Start(_ => new XamarinUno.UWP.App());
 
 			return 0;
