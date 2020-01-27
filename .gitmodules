@@ -1,0 +1,3 @@
+[submodule "Uno.SkiaSharp"]
+	path = Uno.SkiaSharp
+	url = https://github.com/unoplatform/Uno.SkiaSharp.git
