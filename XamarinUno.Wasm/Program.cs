@@ -4,16 +4,17 @@ using Microsoft.Extensions.Logging;
 
 namespace XamarinUno.Wasm
 {
-	public class Program
-	{
-		static int Main(string[] args)
-		{
+    public class Program
+    {
+        static int Main(string[] args)
+        {
             ConfigureFilters(Uno.Extensions.LogExtensionPoint.AmbientLoggerFactory);
 
+            //SkiaSharp.Views.Uno.GlobalStaticResources.Initialize();
             Windows.UI.Xaml.Application.Start(_ => new XamarinUno.UWP.App());
 
-			return 0;
-		}
+            return 0;
+        }
 
         static void ConfigureFilters(ILoggerFactory factory)
         {

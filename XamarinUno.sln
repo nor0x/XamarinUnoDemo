@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinUno", "XamarinUno\Xa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinUno.Wasm", "XamarinUno.Wasm\XamarinUno.Wasm.csproj", "{D1855F77-1154-4822-8D79-9B029E28099E}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XamarinUno.Shared", "XamarinUno.Shared\XamarinUno.Shared.shproj", "{0A20470A-A456-4A9E-A568-2B833C93592A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
