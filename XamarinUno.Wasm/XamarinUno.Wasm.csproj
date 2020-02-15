@@ -23,6 +23,11 @@
 	</ItemGroup>
 	
 	<ItemGroup>
+		<ProjectReference Include="..\Uno.SkiaSharp\binding\SkiaSharp.NetStandard\SkiaSharp.NetStandard.csproj" />
+		<ProjectReference Include="..\Uno.SkiaSharp\binding\SkiaSharp.Wasm\SkiaSharp.Wasm.csproj" />
+		<ProjectReference Include="..\Uno.SkiaSharp\source\SkiaSharp.Views.Forms\SkiaSharp.Views.Forms.UnoWasm\SkiaSharp.Views.Forms.UnoWasm.csproj" />
+		<ProjectReference Include="..\Uno.SkiaSharp\source\SkiaSharp.Views.Forms\SkiaSharp.Views.Forms\SkiaSharp.Views.Forms.csproj" />
+		<ProjectReference Include="..\Uno.SkiaSharp\source\SkiaSharp.Views\SkiaSharp.Views.UnoWasm\SkiaSharp.Views.UnoWasm.csproj" />
 		<ProjectReference Include="..\XamarinUno\XamarinUno.csproj" />
 	</ItemGroup>
 
@@ -40,7 +45,6 @@
 		<PackageReference Include="Uno.Xamarin.Forms.Platform" Version="4.3.4" />
 		<PackageReference Include="Uno.Wasm.Bootstrap" Version="1.0.10" />
 		<DotNetCliToolReference Include="Uno.Wasm.Bootstrap.Cli" Version="1.0.0-dev.302" />
-		<PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.1" />
 	</ItemGroup>
 	  <Import Project="..\XamarinUno.Shared\XamarinUno.Shared.projitems" Label="Shared" Condition="Exists('..\XamarinUno.Shared\XamarinUno.Shared.projitems')" />
 
